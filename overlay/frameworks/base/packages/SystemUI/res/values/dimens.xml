@@ -31,4 +31,7 @@
     <!-- Location on the screen of the center of the physical power button. This is a reasonable
     default that should be overridden by device-specific overlays. -->
     <dimen name="physical_power_button_center_screen_location_y">1140px</dimen>
+
+    <!-- Padding between signal cluster and battery icon -->
+    <dimen name="signal_cluster_battery_padding">6dp</dimen>
 </resources>
