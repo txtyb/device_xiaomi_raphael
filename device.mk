@@ -117,7 +117,8 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libtinycompress \
     libvisualizer \
-    libvolumelistener
+    libvolumelistener \
+    sound_trigger.primary.msmnile
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
