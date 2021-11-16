@@ -1333,26 +1333,10 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/ssr_setup
 
 # Thermal
-vendor/bin/mi_thermald
-vendor/bin/thermal-engine
-vendor/bin/thermal_factory
-vendor/etc/init/init_thermal-engine.rc
-vendor/etc/init/init.mi_thermald.rc
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-class0.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-extreme.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermal-youtobe.conf
-vendor/etc/thermald-devices.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+vendor/bin/thermal-engine|de1adc7a4adbb117123aa5bb116c5df83c686433
+vendor/etc/init/init_thermal-engine.rc|de1adc7a4adbb117123aa5bb116c5df83c686433
+-vendor/lib/libthermalclient.so|de1adc7a4adbb117123aa5bb116c5df83c686433
+-vendor/lib64/libthermalclient.so|de1adc7a4adbb117123aa5bb116c5df83c686433
 
 # Time - from LA.UM.9.1.r1-10600-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
