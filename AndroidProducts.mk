@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_raphael.mk
+    $(LOCAL_DIR)/exthm_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_raphael-userdebug \
-    evolution_raphael-eng
+    exthm_raphael-userdebug \
+    exthm_raphael-eng

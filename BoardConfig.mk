@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/raphael
 
 # Architecture
 TARGET_ARCH := arm64
+<<<<<<< HEAD
 TARGET_ARCH_VARIANT := armv8-2a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
@@ -18,6 +19,20 @@ TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
+=======
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_ABI := arm64-v8a
+TARGET_CPU_ABI2 :=
+TARGET_CPU_VARIANT := generic
+TARGET_CPU_VARIANT_RUNTIME := cortex-a76
+
+TARGET_2ND_ARCH := arm
+TARGET_2ND_ARCH_VARIANT := armv8-a
+TARGET_2ND_CPU_ABI := armeabi-v7a
+TARGET_2ND_CPU_ABI2 := armeabi
+TARGET_2ND_CPU_VARIANT := generic
+TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
+>>>>>>> 3083885 (raphael: Nuke pixel charger)
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
@@ -73,6 +88,14 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_HAS_HDR_DISPLAY := true
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
+<<<<<<< HEAD
+=======
+# Debug
+ifneq ($(ARROW_OFFICIAL), true)
+TARGET_FORCE_RO_DEBUGGABLE := true
+endif
+
+>>>>>>> 3083885 (raphael: Nuke pixel charger)
 # Display
 TARGET_SCREEN_DENSITY := 440
 TARGET_USES_COLOR_METADATA := true
