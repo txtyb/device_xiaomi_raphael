@@ -18,6 +18,9 @@ EVO_BUILD_TYPE := OFFICIAL
 SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Inherit gapps
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := exthm_raphael
 PRODUCT_DEVICE := raphael
