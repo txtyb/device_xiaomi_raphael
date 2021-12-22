@@ -455,7 +455,7 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|000e0d2ac4450c0ad8baca06985bc
 vendor/lib64/vendor.qti.latency@2.0.so|cd9d3705780540323a235af4e3d8bee5c7eb3f63
 vendor/lib64/vendor.qti.latency@2.1.so|2fe737701600872e926842f3efcc5d1f21e3d73e
 
-# Configstore - from LA.UM.9.1.r1-10600-SMxxx0.0
+# Configstore - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|645da35014e8fa91ac3880ac0d8db2a3c7f7020b
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|4bd1bd6f52807b2e32e641dc32e7ad7994424520
@@ -543,7 +543,7 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib/liboemcrypto.so|bd6c31e31016704fdf58ce10e8787bdf0e8d6398
 vendor/lib64/liboemcrypto.so|9aad24f21a73880ff304925f2859695664bd973c
 
-# ESE - from LA.UM.9.1.r1-10600-SMxxx0.0
+# ESE - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|c6b5cf65cb4096abbf137f0c1f6674dce7d7db71
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
 vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|c3f6b98fb88ce938d6141264e926bad0ed0c577e
@@ -879,8 +879,8 @@ vendor/bin/pm-service|1a48e2a015181b351374b99053fb5dee8e2750ee
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 vendor/lib64/libspcom.so|7cc4390e7caf520586c22cdb7219842fa5d6ed2c
 
-# Perf - from LA.UM.9.1.r1-10600-SMxxx0.0
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|1084c4b0b18140cfc57ca1349cada93daf15d3f9
+# Perf - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|3aaa6bdf315b707f5c9d1139d0e908d791ad6e6b
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
 vendor/etc/lm/AdaptLaunchFeature.xml|ad4516342729e79a8914762c2737f7faa08b1e9d
@@ -893,32 +893,32 @@ vendor/etc/perf/perfconfigstore.xml|62f780c6f974a62d18a66d0dcee30efb04903512
 vendor/etc/perf/targetconfig.xml|95f511bb4030b2755a0b340814fe41cccac994ab
 vendor/etc/perf/targetresourceconfigs.xml|44e33511b57320fade366bfd5be83dcf5930f540
 vendor/etc/powerhint.xml|f35137c8f5068d03bba832b995e3e89b1ad718c2
-vendor/lib/libperfconfig.so|6fa5d6abf45071631e019bd66e36aacb13abbd44
+vendor/lib/libperfconfig.so|c5886ec88ff42f544f4da07ded8f9a1e17ee5822
 vendor/lib/libperfgluelayer.so|f524471e9d3906be59404b04526928be53c3d91a
 vendor/lib/libperfioctl.so|00164c19fa1dbf534f15b0a8bc2fc8d3a11ee2fb
-vendor/lib/libqti-perfd-client.so|950db15ae0975e1fca303f68e6225fdccb1e65a0
-vendor/lib/libqti-perfd.so|75bbba5df2bb91ce27c086d21e41ea7663833550
-vendor/lib/libqti-util.so|0df759036ecbcd6f3f941ed343191ada8a7fd452
+vendor/lib/libqti-perfd-client.so|0ec8f8158b2c908f3b42fe7749172ab28237a273
+vendor/lib/libqti-perfd.so|63c5630b9482548b6e25431d11d6c563c8be7a8d
+vendor/lib/libqti-util.so|9194332a697173b5948bf05a00a09a5d4173d6a3
 vendor/lib/libqti-utils.so|1df46366eddff178367dc9e1cb591c966850a34c
-vendor/lib/libskewknob.so|a33754cdc04a0fced49e2ef357e65abbf0242206
+vendor/lib/libskewknob.so|e960f08d003deca9df3f10d90e33ee544712caf5
 vendor/lib/vendor.qti.hardware.perf@2.0.so|ba44ea3281d3835bca0a841d85b6da2e3a5af7e5
 vendor/lib/vendor.qti.hardware.perf@2.1.so|6fe840d4d24ea7d8d7067a640e422e2d2551c62d
 vendor/lib/vendor.qti.hardware.perf@2.2.so|d3de59c1be5defb6f733b27476dcf17026c18b1a
 vendor/lib64/libadaptlaunch.so|610d4811b6d5e2d76487a83d75ab3614985eb362
 vendor/lib64/libappclassifier.so|c7ebdc7b644fdcb58fa3acceb6d683b157114f1a
-vendor/lib64/libgameoptfeature.so|e9b0b552cc316ba80376db60bea9894ae3be4cfe
+vendor/lib64/libgameoptfeature.so|4522e7c8a905b7763c53f68061f538c5e40dd3f6
 vendor/lib64/liblearningmodule.so|0df595fb747f49741681c2911fff63534d3e3298
 vendor/lib64/libmeters-ns.so|0c177ca6998f74b2300808259102d4295c335e08
 vendor/lib64/libmeters.so|7755c87fcbbc89aff53fa3957bcdf81832eca746
-vendor/lib64/libperfconfig.so|155e89154486397f0b7bb3bec4ada6984c0afb31
+vendor/lib64/libperfconfig.so|0a22213beada28e73eff1ff6c79425948479c149
 vendor/lib64/libperfgluelayer.so|5ca8539fe9ff73d2f055e36bed27eab79d2a55b2
 vendor/lib64/libperfioctl.so|2d100455539eff776a993e1df6751cda6e584581
-vendor/lib64/libqti-perfd-client.so|c626ee8739a4a181f7f3b92a91bc7442b73b6541
-vendor/lib64/libqti-perfd.so|44aecc9cac81bcc213a421d67c39ffc47d1df896
-vendor/lib64/libqti-util.so|c124ab8af6610d1bfce76272289a24f97f5f1a7d
+vendor/lib64/libqti-perfd-client.so|36230bc208a3c5c49c75535cdc2fc83c93e8d78c
+vendor/lib64/libqti-perfd.so|cc4f297bf9f5968f66a466699bce583107d5e20f
+vendor/lib64/libqti-util.so|835b7efc7558051517fdb3deb3ad8d5bd841c0ea
 vendor/lib64/libqti-utils.so|1d68c0f5e6aa993d1ee17a1e085f510a6b2ea5a8
 vendor/lib64/libreffeature.so|c5666075d867d8d1c1514bc3763c3a23476d783e
-vendor/lib64/libskewknob.so|b44e11b2dec633950eb40a28b4e6be2d7a7e7da5
+vendor/lib64/libskewknob.so|c6a46c96838d96df7d5486809436636a8e25c878
 vendor/lib64/vendor.qti.hardware.perf@2.0.so|b08deb0567cbbcb608eb2901d6e819b3c61b6f9e
 vendor/lib64/vendor.qti.hardware.perf@2.1.so|90f9b92cd6af5fee83c6891d1ecd18c97624fb72
 vendor/lib64/vendor.qti.hardware.perf@2.2.so|f49863fd5313ccb7a0af2e16c0bae7d4de1ff5ca
@@ -981,7 +981,7 @@ vendor/lib64/libqmiservices.so|277eca2923bab3a7732fc0791a105e4b03723a70
 vendor/lib64/libqrtr.so|56cb57fbf00b3644de26da70aaaa6ed4ae8e4383
 vendor/lib64/libqsocket.so|9275cfbf7025c064fe5086ed76386635314aab4a
 
-# QTEE Connector - from LA.UM.9.1.r1-10600-SMxxx0.0
+# QTEE Connector - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|f9d5e4f25cfca4da472f3c967153022e4f21e2af
@@ -997,7 +997,7 @@ system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
-system_ext/framework/qti-telephony-common.jar|0d3da7628506d66852de19f296a05f728710c4e3
+system_ext/framework/qti-telephony-common.jar|a22ed88e0cd81ea8c4788c26494c8b5fd666ec7c
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
 vendor/bin/adpl|c6893206c84fd9fe9245910dbf152d7b212a84ed
 vendor/bin/ATFWD-daemon|b30b8d24323e655ed95dfd6ecc753764ae93234b
@@ -1365,13 +1365,13 @@ vendor/etc/thermald-devices.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
-# Time - from LA.UM.9.1.r1-10600-SMxxx0.0
+# Time - from LA.UM.9.1.r1-10900-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|17377813bbc330c23d2fee77be21fe24d8aa131e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 
-# Trusted User Interface - from LA.UM.9.1.r1-10600-SMxxx0.0
+# Trusted User Interface - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|938262f1c75299523dc8e5c4e6a793753b209c40
