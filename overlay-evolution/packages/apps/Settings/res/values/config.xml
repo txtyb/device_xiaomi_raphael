@@ -18,7 +18,4 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
-    <bool name="config_face_settings_attention_supported">false</bool>
-    <bool name="config_face_settings_should_manage_preview">false</bool>
-
 </resources>
