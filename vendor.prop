@@ -62,9 +62,11 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+debug.sdm.support_writeback=0
 debug.sf.hw=0
 debug.egl.hw=0
 debug.sf.latch_unsignaled=1
+debug.sf.enable_gl_backpressure=1
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 persist.demo.hdmirotationlock=false
@@ -84,7 +86,6 @@ vendor.display.comp_mask=0
 vendor.display.enable_optimize_refresh=1
 vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_force_split=1
-vendor.display.disable_hw_recovery_dump=1
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.gralloc.disable_ubwc=0
 
@@ -158,6 +159,7 @@ persist.vendor.radio.data_ltd_sys_ind=1
 persist.vendor.radio.enableadvancedscan=true
 persist.vendor.radio.force_ltd_sys_ind=1
 persist.vendor.radio.force_on_dc=true
+persist.vendor.radio.mt_sms_ack=30
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.redir_party_num=1

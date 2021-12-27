@@ -22,7 +22,7 @@ vendor/lib64/libacdbrtac.so
 
 # ADSP - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
-vendor/etc/init/vendor.qti.adsprpc-service.rc|77f5aaf6d773ee545e39bc5fdc99c65434c05379
+vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|77f5aaf6d773ee545e39bc5fdc99c65434c05379
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
 vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
 vendor/lib/libadsprpc.so|eae169c0fd03286d49419e521949b1f57fc2e38b
@@ -944,6 +944,7 @@ vendor/lib/libqmi_common_so.so|7fb765208b835f46ca16a26af718b3ce0f98a7df
 vendor/lib/libqmi_csi.so|dd92fdf8cdcaf39d978d8b2843bfd205d963bad6
 vendor/lib/libqmi_csvt_srvc.so|26fef347b67a27b275a2fdb72bc10d09a5fc7fd5
 vendor/lib/libqmi_encdec.so|eaeec1f1798793088a40658b844131e09cdbbbb1
+vendor/lib/libqmi_legacy.so|666b4babd6ddad158e773a35096085a28f0044ba
 vendor/lib/libqmi.so|8f7625711d538a9ae725f60b5f6930e3eca2ebbe
 vendor/lib/libqmiservices.so|77cb7ae10af902bfc1cfa17a8765c4323d94bc61
 vendor/lib/libqrtr.so|aad9ed224ffa0d2e8d367bb901052a7424640cce
@@ -964,6 +965,7 @@ vendor/lib64/libqmi_common_so.so|424070a87d7da938a9b5677e7adb7166fb9d6820
 vendor/lib64/libqmi_csi.so|744a6e70b146feb391375c5b327014fd77db7d38
 vendor/lib64/libqmi_csvt_srvc.so|7e6f69de5fd650699d6944e8528f12218c036d52
 vendor/lib64/libqmi_encdec.so|540a9638c374a91849625d44873564482c639be4
+vendor/lib64/libqmi_legacy.so|90f61304185005b398a2f7f79b20193a2d6cef4a
 vendor/lib64/libqmi.so|156ce26f797cf5d30d716c48e57c5a20edfaebe4
 vendor/lib64/libqmiservices.so|277eca2923bab3a7732fc0791a105e4b03723a70
 vendor/lib64/libqrtr.so|56cb57fbf00b3644de26da70aaaa6ed4ae8e4383
@@ -1078,7 +1080,7 @@ vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190
 
 # RIL (IMS) - from LA.UM.9.1.r1-10900-SMxxx0.0
 -system_ext/priv-app/ims/ims.apk|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
-system_ext/lib64/lib-imsvideocodec.so|56b3130aa6eeac11fd1f3c70c0a1ef46880e9d5f
+system_ext/lib64/lib-imsvideocodec.so|3a28a51ad9d9e6501d429db9e9d1410a36271617
 system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
 system_ext/lib64/lib-imsvtutils.so|9a7f904b12a066038c2b5725610e8dd45e3f75ed
