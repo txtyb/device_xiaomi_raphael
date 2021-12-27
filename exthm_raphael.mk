@@ -12,7 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-<<<<<<<< HEAD:exthm_raphael.mk
 # Inherit some common exTHmUI stuff.
 $(call inherit-product, vendor/exthm/config/common.mk)
 EVO_BUILD_TYPE := OFFICIAL
@@ -24,16 +23,6 @@ $(call inherit-product, vendor/gapps/common/common-vendor.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := exthm_raphael
-========
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-EVO_BUILD_TYPE := OFFICIAL
-SELINUX_IGNORE_NEVERALLOWS := true
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_raphael
->>>>>>>> snow:evolution_raphael.mk
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
