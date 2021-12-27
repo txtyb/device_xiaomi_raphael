@@ -414,7 +414,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_imsvidecoder
+    libshim_imsvidecoder \
+    libshim_libcdfw_remote_api
 
 # Telephony
 PRODUCT_PACKAGES += \
