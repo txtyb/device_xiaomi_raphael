@@ -854,15 +854,6 @@ vendor/lib64/unnhal-acc-hvx.so|00eb79608cb6e3f19eaf9389632fdbfa03b2df62
 # NFC Firmware
 vendor/lib/libsn100u_fw.so
 
-# Pasrmanager - from LA.UM.9.1.r1-10900-SMxxx0.0
--vendor/app/pasrservice/pasrservice.apk|6d4e8bab2426b03231531ec09bce922601b8e8e6
-vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service|27dd1f54cfdc65f365c6b63e9b13bdb6ade5aa70
-vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc|b34c1b9179c89cd47adce145bae9a609e5141bc0
-vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so|dd02b85c8732e934d4054b413fdd718be147a5c0
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|f9daa32eae1410ecc258d1bede6b0b51289d6892
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|dab1ce59502c375105db1ca06c7048735ee024c0
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|b65beb3fdad836dd56ae57e2bc54091ee0b2c5e9
-
 # Peripheral manager - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
 vendor/bin/pm-service|1a48e2a015181b351374b99053fb5dee8e2750ee
@@ -944,7 +935,6 @@ vendor/lib/libqmi_common_so.so|7fb765208b835f46ca16a26af718b3ce0f98a7df
 vendor/lib/libqmi_csi.so|dd92fdf8cdcaf39d978d8b2843bfd205d963bad6
 vendor/lib/libqmi_csvt_srvc.so|26fef347b67a27b275a2fdb72bc10d09a5fc7fd5
 vendor/lib/libqmi_encdec.so|eaeec1f1798793088a40658b844131e09cdbbbb1
-vendor/lib/libqmi_legacy.so|666b4babd6ddad158e773a35096085a28f0044ba
 vendor/lib/libqmi.so|8f7625711d538a9ae725f60b5f6930e3eca2ebbe
 vendor/lib/libqmiservices.so|77cb7ae10af902bfc1cfa17a8765c4323d94bc61
 vendor/lib/libqrtr.so|aad9ed224ffa0d2e8d367bb901052a7424640cce
@@ -965,7 +955,6 @@ vendor/lib64/libqmi_common_so.so|424070a87d7da938a9b5677e7adb7166fb9d6820
 vendor/lib64/libqmi_csi.so|744a6e70b146feb391375c5b327014fd77db7d38
 vendor/lib64/libqmi_csvt_srvc.so|7e6f69de5fd650699d6944e8528f12218c036d52
 vendor/lib64/libqmi_encdec.so|540a9638c374a91849625d44873564482c639be4
-vendor/lib64/libqmi_legacy.so|90f61304185005b398a2f7f79b20193a2d6cef4a
 vendor/lib64/libqmi.so|156ce26f797cf5d30d716c48e57c5a20edfaebe4
 vendor/lib64/libqmiservices.so|277eca2923bab3a7732fc0791a105e4b03723a70
 vendor/lib64/libqrtr.so|56cb57fbf00b3644de26da70aaaa6ed4ae8e4383
