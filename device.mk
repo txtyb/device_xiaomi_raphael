@@ -413,17 +413,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
     libsensorndkbridge
 
-# Shims
-PRODUCT_PACKAGES += \
-    libshim_imsvidecoder \
-    libshim_libcdfw_remote_api
-
 # Telephony
 PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
     ims-ext-common \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
