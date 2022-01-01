@@ -1,3 +1,6 @@
+# Data files
+type per_boot_file, file_type, data_file_type, core_data_file_type;
+
 # Files
 type audio_socket, file_type;
 type fingerprint_data_file, data_file_type, file_type;
@@ -7,3 +10,4 @@ type public_adsprpcd_file, file_type;
 
 # Nodes
 type sysfs_fod, sysfs_type, fs_type;
+type sysfs_kgsl, sysfs_type, fs_type;
