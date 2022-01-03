@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<<< HEAD:parts/res/xml/display_settings.xml
      Copyright (C) 2015 The CyanogenMod Project
                    2018-2019 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License"
+========
+     Copyright (C) 2019-2021 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+>>>>>>>> evox/snow:overlay/packages/apps/Settings/res/values/evolution_strings.xml
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
 
@@ -15,6 +21,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<<<<<<<< HEAD:parts/res/xml/display_settings.xml
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/display_settings_title">
@@ -31,3 +38,11 @@
         android:title="@string/hbm_mode_title"
         android:summary="@string/hbm_mode_summary" />
 </PreferenceScreen>
+========
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- ROM maintainer name -->
+    <string name="build_maintainer_summary">Joey Huab (Stallix)</string>
+
+</resources>
+>>>>>>>> evox/snow:overlay/packages/apps/Settings/res/values/evolution_strings.xml
