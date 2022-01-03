@@ -19,15 +19,4 @@
     <!-- ROM maintainer name -->
     <string name="build_maintainer_summary">Joey Huab (Stallix)</string>
 
-<<<<<<<< HEAD:overlay/packages/apps/Settings/res/values/evolution_strings.xml
-========
-    <!-- Udfps vendor code -->
-    <integer name="config_udfps_vendor_code">22</integer>
-
-    <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
-
-    <!-- Whether usage of the proximity sensor during doze is supported -->
-    <bool name="doze_proximity_sensor_supported">false</bool>
->>>>>>>> evox/snow:overlay-evolution/frameworks/base/packages/SystemUI/res/values/config.xml
 </resources>
