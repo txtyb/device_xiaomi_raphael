@@ -48,6 +48,7 @@ vendor.voice.path.for.pcm.voip=false
 
 # Bluetooth
 persist.vendor.qcom.bluetooth.soc=cherokee
+persist.vendor.service.bdroid.sibs=false
 
 # Camera
 camera.disable_zsl_mode=true
