@@ -15,6 +15,7 @@ persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.hifi=false
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.voicecall.speaker.stereo=true
+persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.config.vc_call_vol_steps=11
 ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.sdk.ssr=false
@@ -65,9 +66,7 @@ dalvik.vm.dex2oat64.enabled=true
 debug.sdm.support_writeback=0
 debug.sf.hw=0
 debug.egl.hw=0
-debug.sf.latch_unsignaled=1
-debug.renderengine.backend=skiaglthreaded
-renderthread.skia.reduceopstasksplitting=true
+debug.sf.latch_unsignaled=0
 persist.demo.hdmirotationlock=false
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=0
@@ -139,12 +138,13 @@ vendor.power.pasr.enabled=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
 
 # RCS
-persist.rcs.supported=0
+persist.rcs.supported=1
 
 # RIL
 persist.radio.dynamic_sar=false
