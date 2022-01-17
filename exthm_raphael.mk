@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common exTHmUI stuff.
 $(call inherit-product, vendor/exthm/config/common.mk)
 EVO_BUILD_TYPE := OFFICIAL
+EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
