@@ -15,8 +15,8 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common exTHmUI stuff.
 $(call inherit-product, vendor/exthm/config/common.mk)
 EVO_BUILD_TYPE := OFFICIAL
-SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit gapps
 $(call inherit-product, vendor/gapps/common/common-vendor.mk)
